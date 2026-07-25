@@ -90,7 +90,7 @@ Developed and Maintained by **[Mohammad Raees-tecoritham](https://github.com/rae
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/princechouhan19/SHERIANS-FROENTEND-DOMINATION.git
+   [git clone (https://github.com/raeeszadah/Sheryians-Frontend-Domination)
    ```
 2. **Explore Modules:** Navigate to any folder to view source code and practice files.
 3. **Run React Projects:**
