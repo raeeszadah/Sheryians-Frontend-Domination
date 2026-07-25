@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+}
+main section {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+main section.hero {
+  flex: 1;
+}
+main section.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #000;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+main section.cta {
+  flex: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+main section.cta button.blue {
+  padding: 12px 24px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid #000;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+main section.cta button.blue:hover {
+  background-color: red;
+  color: #000;
+  border-color: #000;
+}
+main section.cta button.blue {
+  width: 100%;
+  max-width: 250px;
+}
+main section.cta button.red {
+  padding: 12px 24px;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid cyan;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+main section.cta button.red:hover {
+  background-color: blue;
+  color: #000;
+  border-color: cyan;
+}
+main section.cta button.red {
+  width: 100%;
+  max-width: 250px;
+}/*# sourceMappingURL=style.css.map */
